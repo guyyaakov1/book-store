@@ -10,7 +10,7 @@ import fnmatch
 
 
 class BookStore:
-    # Load Books Into A List.
+    # sLoad Books Into A List.
     def __init__(self,ids=[],customerId=""):
         # Book List
         self.books=[]
