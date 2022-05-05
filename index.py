@@ -6,9 +6,6 @@ import fnmatch
 
 
 
-
-
-
 class BookStore:
     # sLoad Books Into A List.
     def __init__(self,ids=[],customerId=""):
