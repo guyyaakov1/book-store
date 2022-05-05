@@ -22,14 +22,14 @@ class BookStore:
                 self.cart.append(self.getBook(i))
             else:
                 if customerId:
-                    raise Exception(f"Order from {customerId}: book with the ID of {i} Do Not Exist!")
+                    raise Exception(f"aOrder from {customerId}: book with the ID of {i} Do Not Exist!")
                 else:    
                     raise Exception(f"A book with the ID of {i} Do Not Exist!")    
         self.getCartPrice()
         if customerId:
             print(f'{customerId} total price is: {self.price}')
         else:
-            print(f'The total price is: {self.price}')
+            print(f'The total price is::: {self.price}')
     # Get CSV Files.
     def getFiles(self):
         with open('bookstore.csv') as csv_file:
