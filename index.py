@@ -22,7 +22,7 @@ class BookStore:
                 self.cart.append(self.getBook(i))
             else:
                 if customerId:
-                    raise Exception(f"Order from {customerId}: book with the ID of {i} Do Not Exist!")
+                    raise Exception(f"aOrder from {customerId}: book with the ID of {i} Do Not Exist!")
                 else:    
                     raise Exception(f"A book with the ID of {i} Do Not Exist!")    
         self.getCartPrice()
