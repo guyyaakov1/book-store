@@ -29,7 +29,7 @@ class BookStore:
         if customerId:
             print(f'{customerId} total price is: {self.price}')
         else:
-            print(f'The total price is: {self.price}')
+            print(f'The total price is::: {self.price}')
     # Get CSV Files.
     def getFiles(self):
         with open('bookstore.csv') as csv_file:
