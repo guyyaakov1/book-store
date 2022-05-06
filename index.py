@@ -100,4 +100,4 @@ class GetCustomers():
         for k,v in customers.items():
             prices[k]=BookStore(v,k)
 # c=GetCustomers()        #Get All .csv Files from customers Folder #
-b = BookStore([1,8,8,9,6,4]) #Create Single BookStore Object#
+b = BookStore([1,8,8,9,6,4]) #Create Single BoookStore Object#
