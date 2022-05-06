@@ -27,7 +27,7 @@ class BookStore:
                     raise Exception(f"A book with the ID of {i} Do Not Exist!")    
         self.getCartPrice()
         if customerId:
-            print(f'{customerId} total price is: {self.price}')
+            print(f'{customerId} total pricee is: {self.price}')
         else:
             print(f'The total price is::: {self.price}')
     # Get CSV Files.
