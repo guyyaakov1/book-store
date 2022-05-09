@@ -99,5 +99,5 @@ class GetCustomers():
             customers[f"customer{i+1}"]=customer
         for k,v in customers.items():
             prices[k]=BookStore(v,k)
-# c=GetCustomers()        #Get All .csv Files from customers Folder #
+# c=GetCustomers()        #Get All .csv Files fsrom customers Folder #
 b = BookStore([1,8,8,9,6,4]) #Create Single BoookStore Object#
