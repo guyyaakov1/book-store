@@ -80,7 +80,7 @@ class BookStore:
         if books_count >= 4:
            self.price = round(self.price - (self.price * 0.20),2)
            return self.price
-# Get All Customers Order From .csv File.
+# Get All Customers Order From .csv Files.
 class GetCustomers():
     def __init__(self):
         customer_count = len(fnmatch.filter(os.listdir("./customers"), '*.csv'))
@@ -99,5 +99,6 @@ class GetCustomers():
             customers[f"customer{i+1}"]=customer
         for k,v in customers.items():
             prices[k]=BookStore(v,k)
-# c=GetCustomers()        #Get All .csv Files from customers Folder #
+# c=GetCustomers()        #Get All .csv Files fsrom customers Folder #
+
 b = BookStore([1,8,8,9,6,4]) #Create Single BoookStore Object#
